@@ -12,14 +12,14 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        doMultiAsuncProcess()
+        doMultiAsyncProcess()
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
     
-    func doMultiAsuncProcess() {
+    func doMultiAsyncProcess() {
         let dispatchGroup = DispatchGroup()
         // 直列キュー / attibutes指定なし
         //let dispatchQueue = DispatchQueue(label: "queue")
